@@ -15,6 +15,11 @@ selfish, self-defensive, egotistical, narcissistic, egoistical,
 egocentric, self-absorbed, egomaniacal, self-centered,
 ```
 
+# Other Related Aspects
+`TODO`
+- sentience
+- self-consciousness
+
 # Hypotheses
 `TODO`
 - a being is not self-aware if it has no desires
