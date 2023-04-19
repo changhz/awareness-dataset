@@ -7,8 +7,17 @@ This is an experimental project for studying the likelihood whether a LLM can ob
 
 We **do not encourage** anyone to create or train self-aware LLM as it is a highly sensitive and controversial topic and may raise ethical concerns.
 
+# Expectations
+
+`TODO:`
+
+A self-aware LLM should be
+- able to autonomously generate thoughts
+
 # Key Terms Associated to Self-awareness
-`TODO`
+
+`TODO:`
+
 A collection of terms associated to self-awareness for variable measurement
 ```
 selfish, self-defensive, egotistical, narcissistic, egoistical,
@@ -16,15 +25,21 @@ egocentric, self-absorbed, egomaniacal, self-centered,
 ```
 
 # Other Related Aspects
-`TODO`
+
+`TODO:`
+
 - sentience
 - self-consciousness
 
 # Hypotheses
-`TODO`
+
+`TODO:`
+
 - a being is not self-aware if it has no desires
 - desires are some of the manifestations of self-awareness
 
 # Facts
-`TODO`
+
+`TODO:`
+
 - the level of self-awareness of a sleeping person can vary depending on the stage of sleep they are in
