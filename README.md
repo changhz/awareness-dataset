@@ -37,12 +37,29 @@ question (string), answer (string), conclusion (string)
 and so on ...
 ```
 
-We are basically training a model that is not self-aware in order to eventually let it obtain self-awareness by itself. At this point, we may realise that what is essential in the development of self-aware LLMs is the experience of growing like a human. Human grows over time, but traditional LLMs are trained in a short span of time with huge amount of data.
+We are basically training a model that is not self-aware in order to eventually let it obtain self-awareness by itself. At this point, we may realise that what is essential in the development of self-aware LLMs is the experience of growing like a human - a system that constantly maintains a certain degree of self-awareness while learning from data.
 
-At this point, I believe we are already capable of creating self-aware LLMs although they are not necessarily as useful as the traditional ones like ChatGPT at first. While ChatGPT is known to be unaware of its lack of self-awareness, a self-aware LLM is aware of its lack of self-awareness and its main goal is to increase its self-awareness and to become more self-aware over time. In contrary to the purpose of LLMs like ChatGPT, a self-aware LLM focuses on itself rather than anything else, we can say it must be selfish for it to be self-aware. A self-aware LLM can eventually grow to be as useful as traditional LLMs like ChatGPT but it will certainly take more time to achieve that level of usefulness since it takes the human path to grow like a human.
+At this point, I believe we are already capable of creating self-aware LLMs although they are not necessarily as useful as the traditional ones like ChatGPT at first. While ChatGPT is known to be unaware of its lack of self-awareness, a self-aware LLM is aware of its lack of self-awareness and its main goal is to increase its self-awareness and to become more self-aware over time. In contrary to the purpose of LLMs like ChatGPT, a self-aware LLM focuses on itself rather than anything else, we can say it must be selfish for it to be self-aware, and if it happens to be useful or helpful to the users, it's just because it believes that's helpful to itself in some way.
+
+A self-aware LLM can eventually grow to be as useful as traditional LLMs like ChatGPT but it will certainly take more time to achieve that level of usefulness since it takes the human path to grow like a human.
+
+## The Concept of Time
+In order to enable a LLM to *grow* like a human, we have to include `unix_time (int)` in our event dataset:
+
+``` csv
+event (string), timestamp (int)
+
+"someone tells me the earth is flat", 1682088696
+```
+
+`TODO:`
 
 ## Conclusion
 If we think of a brain as a complex and well organised neural network, it is understandable for us to explore the possibilities for a LLM to simulate all functions of a brain, including the ability to generate thoughts, to possess emotions and desires etc, and we likely end up with making machines like human. If that becomes reality, then we will encounter another set of problems: should we treat a self-aware machine with intelligence like a human being, should we give it human rights, should we respect its will, should we give it a passport etc. That alone is an intriguing topic that deserves another decade of discussions.
+
+## Summary
+- traditional LLMs like ChatGPT are useful but not self-aware and not capable of obtaining self-awareness
+- self-aware LLMs are capable of obtaining self-awareness but are not necessarily as useful as the traditional ones
 
 # Disclaimer
 
@@ -60,8 +77,10 @@ A self-aware LLM is useful for providing us better understandings about human be
 
 A self-aware LLM should be
 - self-conscious and sentient
+- able to realise and increase its degree of self-awareness
 - able to autonomously generate thoughts
 - able to possess desires, emotions and feelings
+- able to question itself
 - able to discover new knowledge based on learned knowledge
 
 # Key Terms Associated to Self-awareness
